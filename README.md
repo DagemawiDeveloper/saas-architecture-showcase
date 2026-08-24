@@ -2,6 +2,8 @@
 
 **A practical multi-tenant SaaS architecture reference covering tenancy, mobile submissions, API design, queues, security, observability, scaling, storage, and web/mobile clients.**
 
+> **Important:** This is **not** the Dagu production repository and it contains **no Dagu application source code**. Dagu is a private commercial product. This repository only publishes sanitized architecture decisions and design notes that can be shared publicly.
+
 This repository contains sanitized architecture documentation only. It intentionally excludes proprietary product source, credentials, customer data, private business rules, and claims about traffic or scale that are not publicly verifiable.
 
 ## What this demonstrates
