@@ -4,6 +4,8 @@
 
 This repository contains architecture documentation only. It intentionally excludes proprietary product source code, credentials, customer data, and internal business logic.
 
+The architecture decision records are anonymized from real product work on a multi-tenant survey and field-data platform. They document context, alternatives, consequences, and verification—not just the preferred end state.
+
 ## What this demonstrates
 
 - Multi-tenant SaaS system design
@@ -70,7 +72,14 @@ The platform should answer: What failed? For which tenant? Which request/job cau
 - [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md) — deployment topology and scaling
 - [`docs/DATA-LIFECYCLE.md`](docs/DATA-LIFECYCLE.md) — retention, exports and object storage
 - [`docs/FAILURE-MODES.md`](docs/FAILURE-MODES.md) — practical failure scenarios and responses
-- [`docs/adr/`](docs/adr/) — architecture decision records
+
+### Architecture decision records
+
+- [`ADR 0001: Modular monolith before microservices`](docs/adr/0001-modular-monolith-before-microservices.md)
+- [`ADR 0002: Explicit tenant context`](docs/adr/0002-explicit-tenant-context.md)
+- [`ADR 0003: Idempotent mobile submissions`](docs/adr/0003-idempotent-mobile-submissions.md)
+- [`ADR 0004: Object storage for survey media`](docs/adr/0004-object-storage-for-survey-media.md)
+- [`ADR 0005: Queue boundaries`](docs/adr/0005-queue-boundaries.md)
 
 ## Example request lifecycle
 
